@@ -26,6 +26,7 @@
     "prettier:fix": "prettier . --write",
     "format": "npm-run-all prettier:fix lint:fix",
     "scripts:release-post": "node scripts/release-post/index.mjs"
+
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
